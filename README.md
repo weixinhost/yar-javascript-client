@@ -22,6 +22,11 @@ git clone https://github.com/weixinhost/yar-javascript-client
 </script>
 ```
 
+###Todo
+---
+- 支援JQuery进行Ajax请求
+- 支援并发请求
+- 浏览器兼容
 
 
 
