@@ -13,13 +13,14 @@ git clone https://github.com/weixinhost/yar-javascript-client
 
 ###Example
 ---
+```HTML
 <script>
     var client = new YarClient("your yar server url");
     client.call('test',["@misko_lee",{Content:'我是最美丽的人'}],function(returnData){
         console.log(returnData);
     });
 </script>
-
+```
 
 
 
