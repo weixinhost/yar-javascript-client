@@ -22,12 +22,15 @@ git clone https://github.com/weixinhost/yar-javascript-client
 </script>
 ```
 
+###CStruct
+    在 lib/cstruct 是一个使用js语言c变量/数组/结构体的二进制操作。未来将增加nodejs的支持
+
 ###Todo
 ---
 - 支援JQuery进行Ajax请求
 - 支援并发请求
 - 浏览器兼容
-
+- CStruct 支援 nodejs
 
 
 
