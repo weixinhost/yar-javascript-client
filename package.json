@@ -1,0 +1,25 @@
+{
+    "name": "yar-javascript-client",
+    "version": "1.0.0",
+    "description": "Yar RPC FrameWork Client for browser",
+    "main": "yar.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/weixinhost/yar-javascript-client"
+    },
+    "author": "misko_lee",
+    "license": "MIT",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-cmd-concat": "^0.2.7",
+        "grunt-cmd-transport": "^0.4.1",
+        "grunt-contrib-clean": "^0.5.0",
+        "grunt-contrib-cssmin": "^0.10.0",
+        "grunt-contrib-jshint": "~0.6.0",
+        "grunt-contrib-nodeunit": "~0.2.0",
+        "grunt-contrib-uglify": "~0.2.2"
+    }
+}

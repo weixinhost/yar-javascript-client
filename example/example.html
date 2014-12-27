@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yar.js Test</title>
+    <script src="../dist/yar.min.js"></script>
+</head>
+<body>
+
+<script>
+    var client = new YarClient("http://local.yar-js.com/server.php");
+    client.call('test',["@misko_lee",{Content:'我是最美丽的人'}],function(returnData){
+        console.log(returnData);
+    });
+</script>
+</body>
+</html>
